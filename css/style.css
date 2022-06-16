@@ -13,6 +13,7 @@
 }
 
 body{
+    background-color: gray;
     background-image: url("/img/fundo-app.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
@@ -23,6 +24,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     body{
+        background-color: gray;
         background-image: url("/img/fundo-app.jpg");
         background-repeat: no-repeat, repeat;
         background-size: cover;
