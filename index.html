@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/222f798a0e.js" crossorigin="anonymous"></script>
+
+    <title>Medidor de Combustivel</title>
+
+</head>
+<body>
+    <div class="Menu">
+        <div class="container">
+            <p class="titulo">Digite o preço por litro</p>
+
+            <div class="container-combustivel">
+                <form action="">
+                    <div class="bloco-gasolina">
+                        <div class="gasolina-cubo">
+                        </div>
+                        <p class="nome-gasolina">gasolina</p>
+                        <input id="precoGas" class="preco-gasolina" autocomplete="off" maxlength="4" >
+                        <hr />                 
+                    </div>
+    
+                    <div class="bloco-alcool">
+                        <div class="alcool-cubo">
+                        </div>
+                        <p class="nome-alcool">álcool</p>
+                        <input id="precoAlc" class="preco-alcool" autocomplete="off" maxlength="4" >
+                    </div>
+
+                    <div class="botao">
+                        <input id="send" onclick="calcularValorCombustivel()" class="botao-enviar" type="button" value="Calcular">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container resultado">
+        <p id="res" class="resposta"></p>
+
+        <p id="perc" class="resposta"></p>
+
+        <p id="tan" class="resposta"></p>
+
+        <div class="rodape">
+            "Obrigado por utilizar nossos serviços" - email:sergio.desenvolvedor.web@gmail.com
+        </div>
+    </div>
+
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
