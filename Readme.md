@@ -20,6 +20,5 @@ abastecimento o consumidor tera maior economia.
 
 ## Contato
 
-[email:sergio.desenvolvedor.web@gmail.com](sergio.desenvolvedor.web@gmail.com)
-
+email:sergio.desenvolvedor.web@gmail.com
 
